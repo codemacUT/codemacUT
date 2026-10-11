@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://builds-utkarsh-dev.vercel.app" target="_blank" rel="noreferrer">
-    <img src="./assets/terminal-header.svg" alt="Utkarsh Tiwari — Flutter, Software Developer & AI Automation" width="100%" />
+    <img src="./assets/terminal-header.svg?v=2" alt="Utkarsh Tiwari — Flutter, Software Developer & AI Automation" width="100%" />
   </a>
 </div>
 
