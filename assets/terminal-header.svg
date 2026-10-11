@@ -1,0 +1,48 @@
+<svg fill="none" viewBox="0 0 1200 300" width="1200" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Utkarsh Tiwari developer terminal</title>
+  <desc id="desc">A futuristic terminal introducing Utkarsh Tiwari as a Flutter, backend, and AI automation developer.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#121A35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="60" x2="1080" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset=".5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#263253" stroke-width=".6" opacity=".45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#panel)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <path d="M0 251C166 213 267 290 436 244C608 197 706 212 827 241C957 272 1099 222 1200 200V300H0V251Z" fill="#00E5FF" opacity=".04"/>
+  <circle cx="1030" cy="54" r="88" stroke="#00E5FF" stroke-width="1" opacity=".2">
+    <animate attributeName="r" values="82;94;82" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1030" cy="54" r="57" stroke="#8B5CF6" stroke-width="1" opacity=".28">
+    <animate attributeName="r" values="64;52;64" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="45" y="38" width="1110" height="224" rx="12" fill="#070B16" stroke="#314064"/>
+  <path d="M45 77H1155" stroke="#314064"/>
+  <circle cx="70" cy="57" r="6" fill="#FF5F56"/>
+  <circle cx="91" cy="57" r="6" fill="#FFBD2E"/>
+  <circle cx="112" cy="57" r="6" fill="#27C93F"/>
+  <text x="140" y="62" fill="#8290B5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">utkarsh@dev:~</text>
+
+  <text x="78" y="118" fill="#00E5FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" filter="url(#glow)">$</text>
+  <text x="105" y="118" fill="#D8E2FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">./introduce</text>
+  <text x="78" y="166" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="33" font-weight="700" filter="url(#glow)">UTKARSH TIWARI</text>
+  <text x="80" y="204" fill="#AAB8D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">Flutter Developer  •  Backend Engineer  •  AI Automation</text>
+  <text x="80" y="235" fill="#7180A5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">final-year B.Tech CSE  //  building practical systems</text>
+  <rect x="815" y="220" width="12" height="22" fill="#00E5FF" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

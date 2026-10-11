@@ -1,0 +1,20 @@
+<svg fill="none" viewBox="0 0 1200 115" width="1200" height="115" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated developer terminal signal">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset=".15" stop-color="#00E5FF"/>
+      <stop offset=".5" stop-color="#8B5CF6"/>
+      <stop offset=".85" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M0 58H130L155 58L172 28L190 84L212 58H352L370 45L386 70L401 58H545L567 58L584 17L606 97L630 58H770L792 42L813 74L834 58H978L1000 58L1018 33L1038 80L1058 58H1200" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
+  <circle r="5" fill="#fff" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0 58H130L155 58L172 28L190 84L212 58H352L370 45L386 70L401 58H545L567 58L584 17L606 97L630 58H770L792 42L813 74L834 58H978L1000 58L1018 33L1038 80L1058 58H1200"/>
+  </circle>
+  <text x="50%" y="108" text-anchor="middle" fill="#7180A5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">SYSTEM STATUS: BUILDING · LEARNING · SHIPPING</text>
+</svg>
