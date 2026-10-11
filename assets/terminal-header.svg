@@ -1,6 +1,6 @@
 <svg fill="none" viewBox="0 0 1200 300" width="1200" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Utkarsh Tiwari developer terminal</title>
-  <desc id="desc">A futuristic terminal introducing Utkarsh Tiwari as a Flutter, backend, and AI automation developer.</desc>
+  <desc id="desc">A futuristic terminal introducing Utkarsh Tiwari as a Flutter, software development, and AI automation developer.</desc>
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1020"/>
@@ -40,7 +40,7 @@
   <text x="78" y="118" fill="#00E5FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" filter="url(#glow)">$</text>
   <text x="105" y="118" fill="#D8E2FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">./introduce</text>
   <text x="78" y="166" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="33" font-weight="700" filter="url(#glow)">UTKARSH TIWARI</text>
-  <text x="80" y="204" fill="#AAB8D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">Flutter Developer  •  Backend Engineer  •  AI Automation</text>
+  <text x="80" y="204" fill="#AAB8D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">Flutter Developer  •  Software Developer  •  AI Automation</text>
   <text x="80" y="235" fill="#7180A5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">final-year B.Tech CSE  //  building practical systems</text>
   <rect x="815" y="220" width="12" height="22" fill="#00E5FF" filter="url(#glow)">
     <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
